@@ -17,5 +17,8 @@ module.exports = {
   rules: {
     // Prettier
     'prettier/prettier': 'error',
+
+    // prefer named export instead of default exports
+    'import/prefer-default-export': 'off',
   },
 };
