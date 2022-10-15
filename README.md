@@ -23,6 +23,14 @@ You should follow clean code best practices, keep your solution simple and keep 
 
 # Setup
 
+## Env Variables needed
+
+The app requires it to set the `VITE_APP_API_ENDPOINT` env variable in an `.env` file as it uses the vite dev server proxy and proxies `/graphql` to whatever is set in the env variable.
+
+Of course this only works as long as we run the app with `vite`.
+
+Just copy the provided `.env.dist` file and rename to `.env.local`.
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
