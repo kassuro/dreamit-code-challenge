@@ -7,9 +7,15 @@ module.exports = {
     'plugin:vue/vue3-essential',
     'eslint:recommended',
     '@vue/eslint-config-typescript',
+    '@vue/eslint-config-airbnb-with-typescript',
     '@vue/eslint-config-prettier',
   ],
   parserOptions: {
     ecmaVersion: 'latest',
+  },
+
+  rules: {
+    // Prettier
+    'prettier/prettier': 'error',
   },
 };

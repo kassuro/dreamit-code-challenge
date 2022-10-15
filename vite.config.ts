@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-env node */
 import { fileURLToPath, URL } from 'node:url';
 
 import { defineConfig } from 'vite';
