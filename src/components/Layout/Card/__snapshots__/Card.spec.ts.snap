@@ -1,0 +1,71 @@
+// Vitest Snapshot v1
+
+exports[`Card.vue > has the correct bg class 1`] = `
+<div
+  class="flex-col rounded-md border p-3 shadow-md w-1/4 bg-red-500 lg:max-w-3xl"
+>
+  <!--v-if-->
+  <div
+    class="flex-grow"
+  >
+    
+    
+  </div>
+</div>
+`;
+
+exports[`Card.vue > renders 1`] = `
+<div
+  class="flex-col rounded-md border p-3 shadow-md w-1/4 bg-white-500 lg:max-w-3xl"
+>
+  <!--v-if-->
+  <div
+    class="flex-grow"
+  >
+    
+    
+  </div>
+</div>
+`;
+
+exports[`Card.vue > renders with size full 1`] = `
+<div
+  class="flex-col rounded-md border p-3 shadow-md w-full bg-white-500"
+>
+  <!--v-if-->
+  <div
+    class="flex-grow"
+  >
+    
+    
+  </div>
+</div>
+`;
+
+exports[`Card.vue > renders with size lg 1`] = `
+<div
+  class="flex-col rounded-md border p-3 shadow-md w-full bg-white-500 lg:max-w-3xl"
+>
+  <!--v-if-->
+  <div
+    class="flex-grow"
+  >
+    
+    
+  </div>
+</div>
+`;
+
+exports[`Card.vue > renders with size md 1`] = `
+<div
+  class="flex-col rounded-md border p-3 shadow-md w-1/2 bg-white-500 lg:max-w-3xl"
+>
+  <!--v-if-->
+  <div
+    class="flex-grow"
+  >
+    
+    
+  </div>
+</div>
+`;
