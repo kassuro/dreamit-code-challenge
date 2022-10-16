@@ -1,0 +1,31 @@
+// Vitest Snapshot v1
+
+exports[`Navbar component > renders 1`] = `
+<nav
+  class="mb-5 flex justify-center bg-blue-800 p-2"
+>
+  <div
+    class="container flex items-center"
+  >
+    <router-link-stub
+      ariacurrentvalue="page"
+      class="flex-grow text-5xl font-semibold text-white"
+      custom="false"
+      replace="false"
+      to="[object Object]"
+    />
+    <a
+      class="nav-item"
+      href="#"
+    >
+      Login
+    </a>
+    <a
+      class="nav-item"
+      href="#"
+    >
+      Register
+    </a>
+  </div>
+</nav>
+`;
